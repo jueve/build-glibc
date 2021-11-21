@@ -219,6 +219,10 @@ We set the configuration executing `/root/workdir/glibc/configure` from `build`.
 Actually, some options may be verbose. Or if you want to build with 32 bit, type below.
 
 ```
+# apt-get install -y gcc-multilib g++-multilib
+```
+
+```
 # ../glibc/configure \
   --prefix=/root/workdir/install \
   --host=i686-linux \
