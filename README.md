@@ -2,7 +2,7 @@
 
 We'll go through the following steps.
 
-0. Prepare an environment
+0. Preparing an environment
 1. Get the soruce code
 2. Check dependencies
 3. Create a directory to build
@@ -11,7 +11,7 @@ We'll go through the following steps.
 
 In this page, I'll build `glib-2.31` on [Ubuntu 20.04 in Docker](https://hub.docker.com/_/ubuntu).
 
-## Prepare an environment
+## Preparing an environment
 
 Create a docker container and working directory named `workdir`.
 
