@@ -211,7 +211,7 @@ We set the configuration executing `/root/workdir/glibc/configure` from `build`.
   --host=x86_64-linux-gnu \
   --build=x86_64-linux-gnu \
   CC="gcc -m64" \
-  CXX="gcc -m64" \
+  CXX="g++ -m64" \
   CFLAGS="-O2" \
   CXXFLAGS="-O2"
 ```
